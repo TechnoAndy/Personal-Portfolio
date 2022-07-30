@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "BhuTuka", sans-serif;
+}
+@media (max-width: 768px){
+    body{
+      background-color: pink;
+    }
+  
+  }
+ section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    background: url(Andy01.jpg)no-repeat;
+    background-size: contain;
+    background-color: rgb(71, 69, 69);
+    background-position: right;
+    background-attachment: fixed;
+     
+ } 
+ .content{
+    max-width: 650px;
+    margin: 60px 100px;
+ }
+ .content .info h2{
+    color: red;
+    font-family: Monotype Corsiva;
+    font-size: 45px;
+    text-transform: unset;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.content .info h2 span{
+    color: rgb(235, 8, 8);
+    font-size: 20px;
+    font-weight: 700;
+    position: a;
+    position: b;
+}
+.content .info p{
+    font-family: Constantia;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+
+header .navigation a{
+    flex-direction: column;
+    justify-content: ;
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;   
+    
+}
+.project-image{
+    background: url(Mylandingpage.jpeg)no-repeat;
+}
